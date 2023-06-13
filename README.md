@@ -12,7 +12,7 @@
 5. Create an aws instance and connect with it.
 
     ###
-   # To create a bucket for team
+  # To create a bucket for team
 
 1. Give a new name in [terraform.tfvars] file to app_name.
 
@@ -22,7 +22,7 @@
 
 4. Now run terraform init command, then terraform plan and finally terraform apply.
 
-      #### To delete a team bucket
+ ### To delete a team bucket
 
 1. Give a name of the bucket in [terraform.tfvars] file in app_name which is to be removed.
 
