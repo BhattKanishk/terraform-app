@@ -1,5 +1,5 @@
-resource "aws_security_group" "web_traffic" {
-  name        = "web_traffic"
+resource "aws_security_group" "sg" {
+  name        = "${var.app_name}-sg"
   description = "Allow TLS inbound traffic"
  
 
