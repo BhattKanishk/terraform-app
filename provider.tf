@@ -1,12 +1,8 @@
-provider "aws" {
-  region     = "eu-west-1"
-  access_key = "Access_ky"
-  secret_key = "secret_key"
-}
 terraform {
+  required_version = "1.4.6"
   backend "s3" {
     bucket                  = "newbucketterraform23"
-    key                     = "myapp002.tfstate"
+    key                     = "myapp001.tfstate"
     region                  = "eu-west-1"
     shared_credentials_file = "C:\\Users\\KANISHK BHATT\\.aws\\credentials"
   }
